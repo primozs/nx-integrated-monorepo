@@ -125,6 +125,9 @@ importers:
 
   apps/app2-vue-create:
     dependencies:
+      '@nx-integrated-monorepo/buttons-vue':
+        specifier: workspace:^
+        version: link:../../dist/libs/buttons-vue
       vue:
         specifier: ^3.3.10
         version: 3.3.11(typescript@5.2.2)
@@ -183,6 +186,8 @@ importers:
       vue-tsc:
         specifier: ^1.8.25
         version: 1.8.25(typescript@5.2.2)
+
+  dist/libs/buttons-vue: {}
 
   libs/buttons-vue: {}
 
