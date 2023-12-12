@@ -14,7 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@nx-integrated-monorepo/buttons-vue": "workspace:^",
+    "nc-vue-button-vite": "workspace:^",
     "vue": "^3.3.10"
   },
   "devDependencies": {

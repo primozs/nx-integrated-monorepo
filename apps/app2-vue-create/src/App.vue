@@ -2,11 +2,13 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 // import { NcButton } from '@nx-integrated-monorepo/buttons-vue'
+import { FccButton } from 'nc-vue-button-vite'
 </script>
 
 <template>
   <header>
     <!-- <NcButton> hello button </NcButton> -->
+    <FccButton text="some text">Fcc button</FccButton>
 
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 

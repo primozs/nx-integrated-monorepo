@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <button>NcButton1 <slot></slot></button>
+  <button>NcButton <slot></slot></button>
 </template>
 
 <style scoped></style>

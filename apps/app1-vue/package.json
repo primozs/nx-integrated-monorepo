@@ -1,0 +1,6 @@
+{
+  "name": "app1-vue",
+  "dependencies": {
+    "nc-vue-button-vite": "workspace:^"
+  }
+}
