@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-integrated-monorepo/buttons-qwik": ["libs/buttons-qwik/src/index.ts"]
+      "@nx-integrated-monorepo/buttons-qwik": [
+        "libs/buttons-qwik/src/index.ts"
+      ],
+      "@nx-integrated-monorepo/buttons-vue": ["libs/buttons-vue/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

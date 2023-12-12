@@ -5,5 +5,5 @@ import styles from './buttons-qwik.css?inline';
 export const ButtonsQwik = component$(() => {
   useStylesScoped$(styles);
 
-  return <button>ButtonsQwik</button>;
+  return <button>ButtonsQwik hello</button>;
 });
